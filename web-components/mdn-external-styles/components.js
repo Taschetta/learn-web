@@ -8,7 +8,7 @@ class PopUpInfo extends HTMLElement {
     const infoContent = this.getAttribute('data-text')
     
     this.shadowRoot.innerHTML = `
-      <link rel="stylesheet" href="/style.css">
+      <link rel="stylesheet" href="style.css">
       <span class="wrapper">
         <span class="icon" tabindex="0">
           <img src="${imgSrc}">
